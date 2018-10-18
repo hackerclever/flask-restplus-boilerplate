@@ -1,0 +1,13 @@
+version: "3"
+services:
+  flask-restplus-boilerplate:
+    image: flask-boilerplate
+    tty: true
+    volumes:
+      - ./:/app
+    env_file:
+      - ./.env.example
+    ports:
+      - 8086:5000
+    command: >
+      /bin/bash -c "make run"

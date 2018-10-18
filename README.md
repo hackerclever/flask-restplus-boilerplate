@@ -1,5 +1,11 @@
 #### FLASK RESTFUL API BOILER-PLATE WITH JWT
 
+### Build docker image from Dockerfile and name it as "python-applications".
+    Run: docker build -t flask-boilerplate .
+
+### Start docker
+    Run: docker-compose up
+
 ### Terminal commands
 
     Initial installation: make install
@@ -14,7 +20,7 @@
 ### Viewing the app ###
 
     Open the following url on your browser to view swagger documentation
-    http://127.0.0.1:5000/
+    http://127.0.0.1:8086/
 
 
 ### Using Postman ####
